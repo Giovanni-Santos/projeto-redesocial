@@ -23,11 +23,21 @@ main{
 }
 
 #tel{
-    height: 627px;
-    width: 311px;
+    height: 527px;
+    width: 261px;
     position: absolute;
+    background-color: blue;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url(../imagens/frame-iphone.png) no-repeat;
+    background: url(../imagens/frame-iphone.png) no-repeat ;
+    background-size: cover;
+}
+
+#tela{
+    position: relative;
+    top: 67px;
+    left: 18px;
+    width: 222px;
+    height: 395px;
 }
