@@ -20,6 +20,9 @@ body{
 main{
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 #tel{
@@ -41,3 +44,21 @@ main{
     width: 222px;
     height: 395px;
 }
+
+#redes img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 8px black;
+}
+
+#redes img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.827);
+    transform: translate(-5%, -5%);
+    box-shadow: 4px 4px 8px black;
+    transition: transform .3s;
+}
+
